@@ -62,12 +62,7 @@ const HeroSection = ({ scrollToSection }) => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-r from-purple-600 via-pink-600 to-purple-600 rounded-full blur-xl opacity-75 group-hover:opacity-100 transition-opacity animate-spin-slow"></div>
             <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-purple-500 transform group-hover:scale-110 transition-all duration-500 group-hover:rotate-6 shadow-2xl">
-              {/* Placeholder for profile image - Replace with actual image */}
-              <div className="w-full h-full bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center">
-                <User size={96} className="text-white/80" />
-              </div>
-              {/* Uncomment and use this when you have an actual image */}
-              {/* <img src="/profile.jpg" alt="Dulani Jayakody" className="w-full h-full object-cover" /> */}
+              <img src="/images/profile.jpg" alt="Dulani Jayakody" className="w-full h-full object-cover" />
             </div>
             <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full opacity-0 group-hover:opacity-20 blur transition-opacity animate-pulse"></div>
           </div>
@@ -75,7 +70,7 @@ const HeroSection = ({ scrollToSection }) => {
         
         <div className="opacity-0 animate-fadeInUp">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 perspective-text">
-            Hi, I'm <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-gradient-move">Dulani Jayakody</span>
+            Hi, I'm <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-gradient-move">Dulani </span>
           </h1>
         </div>
         
